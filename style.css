@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: alklife;
+    src: url(alk_life.otf);
+}
+@font-face {
+    font-family: dejavusans;
+    src: url(bpg_dejavu_sans.otf);
+}
+header {
+    height: 200px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.navlink {
+    list-style: none;
+    font-family: alklife;
+    font-size: 24px;
+    color: #717276;
+}
+.navlink li {
+    display: inline-block;
+    margin-right: 20px
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.section {
+    width: 1180px;
+    margin-top: 150px;
+}
+.sectionheader {
+    display: flex;
+    align-items: center;
+    color: #717276;
+    font-family: dejavusans;
+}
+.sectionheader h1 {
+    margin-left: 40px;
+}
+.books {
+    margin-top: 40px;
+}
+.prdiv {
+    display: inline-block;
+    margin-top: 20px;
+    width: 380px;
+}
+.author {
+    font-family: dejavusans;
+    color: #717276;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.bookname {
+    font-family: alklife;
+    font-size: 24px;
+    color: #717276;
+    font-weight: 400px;
+}
+.bookprice {
+    font-family: dejavusans;
+    counter-reset: #717276;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.scndscimgs{
+    margin-top: 40px;
+}
+.section2 {
+    width: 1180px;
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+footer {
+    background-color: #D9D9D9;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con {
+    list-style: none;
+    font-family: alklife;
+    font-size: 24px;
+    color: black;
+}
+.conimg {
+    margin-left: 25px;
+}
